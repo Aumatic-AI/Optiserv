@@ -125,107 +125,182 @@
 <main id="main">
 
   <!-- ================= HERO ================= -->
-  <section class="hero wrap">
-    <div class="hero-grid">
-      <div>
-        <h1 data-reveal>Build your team.<br>Not your <em>overhead</em>.</h1>
-        <p class="lead" data-reveal style="--d:80ms">
-          Dedicated engineers, QA, designers and operations staff in Hyderabad and Cebu —
-          sourced, employed, paid and managed by us. You direct the work. We carry everything
-          that normally surrounds a hire.
-        </p>
-        <div class="hero-actions" data-reveal style="--d:160ms">
-          <a class="btn btn-primary" href="contact.html">
-            Book a call
-            <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
-          </a>
-          <a class="btn btn-ghost" href="pricing.html">See what&rsquo;s included</a>
-        </div>
-        <p class="hero-note" data-reveal style="--d:220ms">
-          <span class="node" aria-hidden="true"></span>
-          <span>From <strong class="fig">$1,500</strong> a month <span data-verify="price-basis">per dedicated team member</span>, with a 30-day trial.</span>
-        </p>
+  <section class="hero">
+    <div class="wrap hero-top">
+      <h1 data-reveal>Build your team.<br>Not your overhead.</h1>
+      <p class="lead" data-reveal style="--d:80ms">
+        Dedicated engineers, QA, designers and operations staff in Hyderabad and Cebu &mdash;
+        sourced, employed, paid and managed by us. You direct the work.
+      </p>
+
+      <div class="ask" data-reveal style="--d:140ms">
+        <p class="ask-q" id="ask-q">What do you need help with?</p>
+        <ul class="chips" aria-labelledby="ask-q">
+          <li><a class="chip" href="staff-augmentation.html"><span class="chip-ic" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M7 6L3 10l4 4M13 6l4 4-4 4"/></svg></span>Hire engineers &amp; designers</a></li>
+          <li><a class="chip" href="qa-testing.html"><span class="chip-ic" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9"/></svg></span>Test my product</a></li>
+          <li><a class="chip" href="operational-staffing.html"><span class="chip-ic" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M3 16V8l7-4 7 4v8M8 16v-5h4v5"/></svg></span>Run HR &amp; payroll</a></li>
+          <li><a class="chip" href="recruitment-rpo.html"><span class="chip-ic" aria-hidden="true"><svg viewBox="0 0 20 20"><circle cx="9" cy="9" r="5"/><path d="M13 13l4 4"/></svg></span>Recruit for my payroll</a></li>
+          <li><a class="chip" href="automation.html"><span class="chip-ic" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M11 2L4 11h5l-1 7 7-9h-5z"/></svg></span>Automate the busywork</a></li>
+        </ul>
       </div>
 
-      <div class="hero-art" data-reveal style="--d:120ms" aria-hidden="true">
-        <svg class="trace-svg draw" id="heroArt" viewBox="24 96 614 338" role="presentation">
-          <!-- delivery centres route in from the left -->
-          <path d="M44,204 H84 L144,264"/>
-          <path d="M44,332 H166 L177,321"/>
-          <rect class="pad" x="36" y="200" width="9" height="9"/>
-          <rect class="pad" x="36" y="328" width="9" height="9"/>
+      <div class="hero-actions" data-reveal style="--d:200ms">
+        <a class="btn btn-primary" href="contact.html">
+          Book a call
+          <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="pricing.html">See what&rsquo;s included</a>
+      </div>
+      <p class="hero-note" data-reveal style="--d:240ms">
+        From <strong>$1,500 a month</strong> <span data-verify="price-basis">per dedicated team member</span>, with a 30-day trial.
+      </p>
+    </div>
 
-          <!-- the mark, abstracted from the logo hexagon -->
-          <polygon class="t-dim" points="276,264 243,321 177,321 144,264 177,207 243,207" fill="none"/>
-          <polygon points="254,264 232,302 188,302 166,264 188,226 232,226" fill="none"/>
-          <path d="M166,264 H190"/>
-          <path d="M230,264 H254"/>
-          <rect class="pad" x="204" y="258" width="13" height="13"/>
-          <circle class="via" cx="188" cy="226" r="3.5"/>
-          <circle class="via" cx="232" cy="302" r="3.5"/>
-
-          <!-- five nets out to the roles you commission -->
-          <path d="M243,207 H304 L387,124 H470"/>
-          <path d="M243,207 H374 L387,194 H470"/>
-          <path d="M276,264 H470"/>
-          <path d="M243,321 H374 L387,334 H470"/>
-          <path d="M243,321 H304 L387,404 H470"/>
-
-          <rect class="pad" x="466" y="120" width="10" height="10"/>
-          <rect class="pad" x="466" y="190" width="10" height="10"/>
-          <rect class="pad" x="466" y="260" width="10" height="10"/>
-          <rect class="pad" x="466" y="330" width="10" height="10"/>
-          <rect class="pad" x="466" y="400" width="10" height="10"/>
-
-          <g font-family="Martian Mono, monospace" font-size="13" font-stretch="82%" fill="#06212E" letter-spacing="-0.6">
-            <text x="492" y="130">Engineers</text>
-            <text x="492" y="200">QA &amp; test</text>
-            <text x="492" y="270">Designers</text>
-            <text x="492" y="340">Ops &amp; HR</text>
-            <text x="492" y="410">Recruiters</text>
-          </g>
-          <g font-family="Martian Mono, monospace" font-size="11" font-stretch="82%" fill="#696969" letter-spacing="-0.4">
-            <text x="36" y="190">HYDERABAD</text>
-            <text x="36" y="356">CEBU</text>
-          </g>
+    <!-- The product, shown as product. An illustration of how an engagement looks, not a screenshot of real people. -->
+    <div class="wrap">
+      <div class="stage" data-reveal style="--d:160ms" role="img"
+           aria-label="Illustration of an Optiserv engagement: a dashboard listing four dedicated team members across Hyderabad and Cebu, one monthly invoice with everything included, eight hours of working overlap with London, and a 30-day trial in progress.">
+        <svg class="stage-trace" viewBox="0 0 1200 560" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <path d="M0,120 H210 L270,180 H420"/>
+          <path d="M0,430 H160 L230,360 H420"/>
+          <path d="M1200,90 H1010 L950,150 H800"/>
+          <path d="M1200,460 H1040 L980,400 H800"/>
+          <polygon points="600,40 680,86 680,178 600,224 520,178 520,86" fill="none"/>
+          <rect x="414" y="174" width="12" height="12"/><rect x="414" y="354" width="12" height="12"/>
+          <rect x="794" y="144" width="12" height="12"/><rect x="794" y="394" width="12" height="12"/>
         </svg>
+
+        <div class="ui ui-team">
+          <div class="ui-head">
+            <div>
+              <b>Your Optiserv team</b>
+              <span>4 dedicated members &middot; 2 centres</span>
+            </div>
+            <span class="pill pill-live"><i></i>Live now</span>
+          </div>
+          <ul class="ui-rows">
+            <li><span class="av av-a" aria-hidden="true">&lt;/&gt;</span><div><b>Senior Java engineer</b><span>Hyderabad, India</span></div><span class="pill pill-on">Online</span></li>
+            <li><span class="av av-b" aria-hidden="true">QA</span><div><b>Test automation engineer</b><span>Cebu, Philippines</span></div><span class="pill pill-on">Online</span></li>
+            <li><span class="av av-c" aria-hidden="true">UX</span><div><b>Product designer</b><span>Hyderabad, India</span></div><span class="pill pill-trial">Trial &middot; day 12</span></li>
+            <li><span class="av av-d" aria-hidden="true">HR</span><div><b>Payroll &amp; HR specialist</b><span>Hyderabad, India</span></div><span class="pill pill-on">Online</span></li>
+          </ul>
+        </div>
+
+        <div class="ui ui-invoice">
+          <span class="ui-k">This month</span>
+          <b class="ui-big">1 invoice</b>
+          <ul class="ui-checks">
+            <li>Recruitment</li><li>Payroll &amp; HR</li><li>Seat &amp; equipment</li><li>IT support</li><li>Account manager</li>
+          </ul>
+        </div>
+
+        <div class="ui ui-overlap">
+          <span class="ui-k">Overlap with London</span>
+          <b class="ui-big">8 hours</b>
+          <div class="mini-ovl"><i class="mo-a"></i><i class="mo-b"></i><i class="mo-c"></i></div>
+        </div>
+
+        <div class="ui ui-trial">
+          <div class="ring" style="--p:.4"><span>12<small>/30</small></span></div>
+          <div><b>Trial in progress</b><span>Keep, swap or add</span></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= OFFER RAIL ================= -->
-  <section class="rail" aria-label="The offer at a glance">
-    <div class="wrap">
-      <div class="rail-in">
-        <div class="rail-item">
-          <b><span class="num">$1,500</span></b>
-          <span>per month, per dedicated team member &mdash; recruitment, payroll, seat, equipment and management included</span>
+  <!-- ================= MARQUEE ================= -->
+  <section class="ticker" aria-label="Skills and stacks we staff">
+    <p class="ticker-lead">Teams across the stacks you already run</p>
+    <div class="ticker-track">
+      <ul class="ticker-row">
+        <li>Java</li><li>.NET</li><li>Python</li><li>ReactJS</li><li>Angular</li><li>DevOps</li><li>Salesforce</li><li>SAP S/4HANA</li><li>Pega</li><li>SailPoint</li><li>CyberArk</li><li>Test automation</li><li>Mobile QA</li><li>Payroll</li><li>HR operations</li><li>Recruiters</li>
+      </ul>
+      <ul class="ticker-row" aria-hidden="true">
+        <li>Java</li><li>.NET</li><li>Python</li><li>ReactJS</li><li>Angular</li><li>DevOps</li><li>Salesforce</li><li>SAP S/4HANA</li><li>Pega</li><li>SailPoint</li><li>CyberArk</li><li>Test automation</li><li>Mobile QA</li><li>Payroll</li><li>HR operations</li><li>Recruiters</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES (product grid) ================= -->
+  <section class="section wrap" aria-labelledby="svc-h">
+    <div class="section-head center" data-reveal>
+      <h2 id="svc-h">One partner for the whole team</h2>
+      <p class="lead">Start with one person or a whole function. Every service runs on the same contract and the same account manager.</p>
+    </div>
+
+    <div class="bento">
+      <a class="tile tile-xl t-mist" href="staff-augmentation.html" data-reveal>
+        <div class="tile-copy">
+          <h3>Dedicated staffing</h3>
+          <p>Engineers, QA and designers employed by us and embedded in your stand-ups, your board and your repo. They never rotate between clients.</p>
+          <span class="link">How it works <svg width="13" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg></span>
         </div>
-        <div class="rail-item">
-          <b><span class="num">30</span> days</b>
-          <span>to test vetted people before you commit <span data-verify="trial-terms">&mdash; terms on the pricing page</span></span>
+        <div class="tile-art" aria-hidden="true">
+          <div class="ui ui-profile">
+            <div class="ui-profile-top"><span class="av av-a">&lt;/&gt;</span><div><b>Full-stack engineer</b><span>Dedicated to your product</span></div></div>
+            <div class="ui-tags"><span>Java</span><span>ReactJS</span><span>DevOps</span><span>Python</span></div>
+            <div class="ui-meter"><span>Your stand-up</span><span>09:30 GMT</span></div>
+            <div class="ui-meter"><span>Your repo &amp; board</span><span>Access granted</span></div>
+          </div>
         </div>
-        <div class="rail-item">
-          <b><span class="num">2</span> centres</b>
-          <span>Hyderabad, India and Cebu, Philippines &mdash; one contract, one invoice</span>
+      </a>
+
+      <a class="tile tile-l t-navy" href="qa-testing.html" data-reveal style="--d:60ms">
+        <div class="tile-copy">
+          <h3>QA &amp; testing</h3>
+          <p>Manual, automation, mobile, accessibility, performance and security testing.</p>
+          <span class="link">What we test <svg width="13" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg></span>
         </div>
-        <div class="rail-item">
-          <b><span class="num">0</span> extras</b>
-          <span>no agency placement fee, no payroll admin, no equipment capex on your side</span>
+        <div class="tile-art" aria-hidden="true">
+          <ul class="ui ui-suite">
+            <li><i></i>Regression suite</li><li><i></i>Mobile devices</li><li><i></i>Section 508</li><li><i></i>Load &amp; performance</li>
+          </ul>
         </div>
-      </div>
+      </a>
+
+      <a class="tile t-white" href="operational-staffing.html" data-reveal>
+        <div class="tile-art" aria-hidden="true">
+          <div class="ui-grid4"><span>Payroll</span><span>Onboarding</span><span>Leave</span><span>IT &amp; infra</span></div>
+        </div>
+        <div class="tile-copy">
+          <h3>Operational staffing</h3>
+          <p>HR, payroll, infrastructure and team management, staffed as a unit.</p>
+        </div>
+      </a>
+
+      <a class="tile t-sky" href="recruitment-rpo.html" data-reveal style="--d:60ms">
+        <div class="tile-art" aria-hidden="true">
+          <div class="ui-pipe"><span>Sourced</span><span>Screened</span><span class="on">Shortlist</span></div>
+        </div>
+        <div class="tile-copy">
+          <h3>Recruitment &amp; RPO</h3>
+          <p>Full-cycle RPO, a project team for a hiring surge, or one recruiter on demand.</p>
+        </div>
+      </a>
+
+      <a class="tile t-white" href="automation.html" data-reveal style="--d:120ms">
+        <div class="tile-art" aria-hidden="true">
+          <svg class="ui-flow" viewBox="0 0 240 64">
+            <path d="M44,32 H96 M144,32 H196"/>
+            <rect x="8" y="16" width="36" height="32" rx="8"/><rect x="96" y="16" width="48" height="32" rx="8"/><rect x="196" y="16" width="36" height="32" rx="8"/>
+            <text x="26" y="36">In</text><text x="120" y="36">Rule</text><text x="214" y="36">Out</text>
+          </svg>
+        </div>
+        <div class="tile-copy">
+          <h3>Automation</h3>
+          <p>Where a task genuinely repeats, automating it beats staffing it. Scoped per project.</p>
+        </div>
+      </a>
     </div>
   </section>
 
   <!-- ================= LEDGER ================= -->
   <section class="section navy-band" aria-labelledby="ledger-h">
+    <svg class="band-trace" viewBox="0 0 400 400" aria-hidden="true"><polygon points="200,30 347,115 347,285 200,370 53,285 53,115"/><polygon points="200,90 295,145 295,255 200,310 105,255 105,145"/><path d="M53,200 H140 M260,200 H347"/></svg>
     <div class="wrap">
       <div class="ledger-head" data-reveal>
         <h2 id="ledger-h">A hire is never just a salary.</h2>
-        <p class="lead" style="margin-top:var(--s5)">
-          Everything underneath the salary line is what makes headcount expensive and slow.
-          Here is who carries each of those lines.
-        </p>
+        <p class="lead">Everything underneath the salary line is what makes headcount expensive and slow. Here is who carries each of those lines.</p>
       </div>
 
       <div class="ledger" data-reveal style="--d:80ms">
@@ -254,110 +329,36 @@
     </div>
   </section>
 
-  <!-- ================= SERVICES ================= -->
-  <section class="section wrap" aria-labelledby="svc-h">
-    <div style="max-width:52ch;margin-bottom:var(--s8)" data-reveal>
-      <h2 id="svc-h">Four ways to add capacity</h2>
-      <p class="lead" style="margin-top:var(--s5)">
-        Start with one person or a whole function. Each runs on the same contract and the same
-        account manager.
-      </p>
-    </div>
-
-    <div class="stations">
-      <article class="station lead feature" data-reveal>
-        <div class="station-id"><span class="node" aria-hidden="true"></span> NET 01 &middot; DEDICATED STAFFING</div>
-        <div class="station-body">
-          <div>
-            <h3>Engineers who work only on your product</h3>
-            <a class="link" href="staff-augmentation.html" style="margin-top:var(--s5)">How it works
-              <svg width="13" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
-            </a>
-          </div>
-          <div>
-            <p>
-              Developers, QA engineers, designers and analysts, employed by us and embedded in
-              your stand-ups, your board and your repo. They do not rotate between clients.
-            </p>
-            <div class="station-tags">
-              <span class="tag">Java</span><span class="tag">.NET</span><span class="tag">Python</span>
-              <span class="tag">ReactJS</span><span class="tag">Angular</span><span class="tag">DevOps</span>
-              <span class="tag">Salesforce</span><span class="tag">SAP S/4HANA</span><span class="tag">Pega</span>
-              <span class="tag">SailPoint</span><span class="tag">CyberArk</span>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="station third" data-reveal style="--d:70ms">
-        <div class="station-id"><span class="node" aria-hidden="true"></span> NET 02</div>
-        <h3>Operational staffing</h3>
-        <p>
-          HR, payroll, infrastructure and team management staffed as a unit, so growth does not
-          land on the people who should be building.
-        </p>
-        <a class="link" href="operational-staffing.html">What we staff
-          <svg width="13" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
-        </a>
-      </article>
-
-      <article class="station third" data-reveal style="--d:140ms">
-        <div class="station-id"><span class="node" aria-hidden="true"></span> NET 03</div>
-        <h3>Recruitment &amp; RPO</h3>
-        <p>
-          Full-cycle RPO, a project team for a hiring surge, or a single recruiter on demand &mdash;
-          for roles you intend to employ yourself.
-        </p>
-        <a class="link" href="recruitment-rpo.html">Three engagement models
-          <svg width="13" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
-        </a>
-      </article>
-
-      <article class="station third" data-reveal style="--d:210ms">
-        <div class="station-id"><span class="node" aria-hidden="true"></span> NET 04</div>
-        <h3>Automation</h3>
-        <p>
-          Where a task is genuinely repeatable, automating it beats staffing it &mdash; and we
-          will tell you when that is the case. Scoped per project.
-        </p>
-        <a class="link" href="automation.html">How projects are scoped
-          <svg width="13" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
-        </a>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ================= STEPS ================= -->
-  <section class="section-tight wrap" aria-labelledby="how-h">
-    <hr class="trace-h" style="margin-bottom:var(--s8)">
-    <div style="max-width:48ch" data-reveal>
-      <h2 id="how-h">From call to working team</h2>
+  <!-- ================= TIMELINE ================= -->
+  <section class="section wrap" aria-labelledby="how-h">
+    <div class="section-head center" data-reveal>
+      <h2 id="how-h">From first call to a working team</h2>
+      <p class="lead">Four steps. You make every decision that matters; we do the rest.</p>
     </div>
     <ol class="steps">
       <li class="step" data-reveal>
-        <div class="step-n">STEP 01</div>
+        <div class="step-when">Today</div>
+        <div class="step-n">Step 1</div>
         <h3 class="hsub">Scope</h3>
         <p>A call to establish the roles, the stack, the seniority and the working hours you need covered.</p>
-        <div class="step-when">You and us</div>
       </li>
       <li class="step" data-reveal style="--d:70ms">
-        <div class="step-n">STEP 02</div>
+        <div class="step-when">Next</div>
+        <div class="step-n">Step 2</div>
         <h3 class="hsub">Shortlist</h3>
         <p>We source and vet against that brief, then put a shortlist in front of you. You interview. You choose.</p>
-        <div class="step-when">You decide</div>
       </li>
       <li class="step" data-reveal style="--d:140ms">
-        <div class="step-n">STEP 03</div>
+        <div class="step-when">Day 1&ndash;30</div>
+        <div class="step-n">Step 3</div>
         <h3 class="hsub">Trial</h3>
         <p>Your chosen people start on a 30-day trial, inside your tools and your rituals, on real work.</p>
-        <div class="step-when">Day 1 &ndash; 30</div>
       </li>
       <li class="step" data-reveal style="--d:210ms">
-        <div class="step-n">STEP 04</div>
+        <div class="step-when">Month 2 onward</div>
+        <div class="step-n">Step 4</div>
         <h3 class="hsub">Scale</h3>
         <p>Keep them, swap them, or add to them. The contract flexes with the team, not against it.</p>
-        <div class="step-when">Month 2 onward</div>
       </li>
     </ol>
   </section>
@@ -368,10 +369,7 @@
       <div class="ovl-head">
         <div data-reveal>
           <h2 id="ovl-h">&ldquo;But the timezone&rdquo;</h2>
-          <p class="lead" style="margin-top:var(--s5)">
-            Overlap is a shift decision, not an accident of geography. Pick your market and see the
-            hours your team is online while you are.
-          </p>
+          <p class="lead">Overlap is a shift decision, not an accident of geography. Pick your market and see the hours your team is online while you are.</p>
         </div>
         <div class="market" role="tablist" aria-label="Choose your market" data-reveal>
           <button role="tab" type="button" aria-selected="true"  data-market="uk">United Kingdom</button>
@@ -409,46 +407,63 @@
         <span class="key"><i style="background:rgba(165,226,242,.26)"></i> Your working day</span>
         <span class="key"><i style="background:rgba(0,170,212,.38)"></i> Your Optiserv team</span>
         <span class="key"><i style="background:#00AAD4"></i> Both online</span>
-        <span style="margin-left:auto">Standard time, no daylight saving. A 09:00&ndash;18:00 day assumed on both sides.</span>
+        <span class="ovl-fine">Standard time, no daylight saving. A 09:00&ndash;18:00 day assumed on both sides.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OFFER IN NUMBERS ================= -->
+  <section class="section-tight wrap" aria-labelledby="nums-h">
+    <div class="nums">
+      <h2 id="nums-h" data-reveal>Growing a team abroad should feel like hiring next door.</h2>
+      <div class="nums-grid">
+        <div class="numcard" data-reveal><b class="num">$1,500</b><span>From, per month, per dedicated team member &mdash; everything around the hire included</span></div>
+        <div class="numcard" data-reveal style="--d:60ms"><b class="num">30 days</b><span>To test vetted people on real work before you commit <span data-verify="trial-terms">&mdash; terms on the pricing page</span></span></div>
+        <div class="numcard" data-reveal style="--d:120ms"><b class="num">2 centres</b><span>Hyderabad, India and Cebu, Philippines, on one contract</span></div>
+        <div class="numcard" data-reveal style="--d:180ms"><b class="num">1 invoice</b><span>No agency placement fee, no payroll admin, no equipment capex on your side</span></div>
       </div>
     </div>
   </section>
 
   <!-- ================= INDUSTRIES ================= -->
-  <section class="section wrap" aria-labelledby="ind-h">
-    <div style="max-width:50ch;margin-bottom:var(--s7)" data-reveal>
-      <h2 id="ind-h">Where we have built teams</h2>
+  <section class="section-tight wrap" aria-labelledby="ind-h">
+    <div class="section-head" data-reveal>
+      <h2 id="ind-h">Where we build teams</h2>
     </div>
     <div class="inds">
-      <div class="ind" data-reveal><h3 class="hsub"><span class="node node-hollow" aria-hidden="true"></span>IT &amp; non-IT</h3><p>Engineering, support, finance and back-office roles staffed from one contract.</p></div>
-      <div class="ind" data-reveal style="--d:50ms"><h3 class="hsub"><span class="node node-hollow" aria-hidden="true"></span>E-commerce</h3><p>Platform and storefront work, performance, analytics and lifecycle marketing.</p></div>
-      <div class="ind" data-reveal style="--d:100ms"><h3 class="hsub"><span class="node node-hollow" aria-hidden="true"></span>Product companies</h3><p>Dedicated squads alongside your own, on your roadmap and your release train.</p></div>
-      <div class="ind" data-reveal style="--d:150ms"><h3 class="hsub"><span class="node node-hollow" aria-hidden="true"></span>Service businesses</h3><p>Delivery capacity that scales with the contract book instead of ahead of it.</p></div>
-      <div class="ind" data-reveal style="--d:200ms"><h3 class="hsub"><span class="node node-hollow" aria-hidden="true"></span>Consulting firms</h3><p>Bench depth on demand, so a won pitch does not become a staffing problem.</p></div>
-      <div class="ind" data-reveal style="--d:250ms"><h3 class="hsub"><span class="node node-hollow" aria-hidden="true"></span>iGaming</h3><p>Game testing, release QA and operations &mdash; a specialism we have carried from the start.</p></div>
+      <div class="ind" data-reveal><h3 class="hsub">IT &amp; non-IT</h3><p>Engineering, support, finance and back-office roles staffed from one contract.</p></div>
+      <div class="ind" data-reveal style="--d:50ms"><h3 class="hsub">E-commerce</h3><p>Platform and storefront work, performance, analytics and lifecycle marketing.</p></div>
+      <div class="ind" data-reveal style="--d:100ms"><h3 class="hsub">Product companies</h3><p>Dedicated squads alongside your own, on your roadmap and your release train.</p></div>
+      <div class="ind" data-reveal style="--d:150ms"><h3 class="hsub">Service businesses</h3><p>Delivery capacity that scales with the contract book instead of ahead of it.</p></div>
+      <div class="ind" data-reveal style="--d:200ms"><h3 class="hsub">Consulting firms</h3><p>Bench depth on demand, so a won pitch does not become a staffing problem.</p></div>
+      <div class="ind" data-reveal style="--d:250ms"><h3 class="hsub">iGaming</h3><p>Game testing, release QA and operations &mdash; a specialism we have carried from the start.</p></div>
     </div>
   </section>
 
   <!-- ================= FOUNDER ================= -->
-  <section class="section surface" aria-labelledby="fnd-h">
-    <div class="wrap founder">
-      <div class="portrait photo" data-reveal>
-          <img src="assets/img/founder.webp" alt="Founder of Optiserv Consulting" width="500" height="500" loading="lazy">
-        </div>
-      <div data-reveal style="--d:80ms">
-        <h2 id="fnd-h" style="font-size:var(--t-d2)">From the founder</h2>
-        <p class="quote" style="margin-top:var(--s5)" data-verify="founder-note">
-          &ldquo;Most of the companies we talk to do not have a talent problem. They have an
-          overhead problem wearing a talent problem&rsquo;s clothes. Our job is to take the hiring,
-          the payroll, the desks and the management off your plate, and leave you with the one
-          thing you actually wanted: good people, working on your product, at hours that match
-          yours.&rdquo;
-        </p>
-        <div class="byline">
-          <span class="node" aria-hidden="true"></span>
-          <div>
+  <section class="section" aria-labelledby="fnd-h">
+    <div class="wrap">
+      <div class="spotlight">
+        <div class="spot-photo" data-reveal>
+          <img src="assets/img/founder.jpg" alt="Sunil Chandra Goud, founder of Optiserv Consulting" width="520" height="671" loading="lazy">
+          <div class="spot-chip spot-chip-name">
             <b data-verify="founder-name">Sunil Chandra Goud</b>
             <span data-verify="founder-title">Founder, Optiserv Consulting</span>
+          </div>
+          <div class="spot-chip spot-chip-loc"><i aria-hidden="true"></i>Hyderabad, India</div>
+        </div>
+        <div class="spot-copy" data-reveal style="--d:80ms">
+          <h2 id="fnd-h">From the founder</h2>
+          <p class="quote" data-verify="founder-note">
+            &ldquo;Most of the companies we talk to do not have a talent problem. They have an
+            overhead problem wearing a talent problem&rsquo;s clothes. Our job is to take the hiring,
+            the payroll, the desks and the management off your plate, and leave you with the one
+            thing you actually wanted: good people, working on your product, at hours that match
+            yours.&rdquo;
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Book time with the founder</a>
+            <a class="btn btn-ghost" href="about.html">About Optiserv</a>
           </div>
         </div>
       </div>
@@ -457,26 +472,18 @@
 
   <!-- ================= WORK ================= -->
   <section class="section-tight wrap">
-    <hr class="trace-h" style="margin-bottom:var(--s7)">
-    <div class="split">
-      <div data-reveal>
-        <h2 style="font-size:var(--t-d2)">See the work</h2>
+    <a class="work-strip" href="case-studies.html" data-reveal>
+      <div>
+        <h2>See the work</h2>
+        <p>Systems we have built, and the engagement patterns our staffing work follows &mdash; across dedicated teams, QA, recruitment, operations and automation.</p>
       </div>
-      <div data-reveal style="--d:80ms">
-        <p class="lead" style="max-width:52ch">
-          Systems we have built, and the engagement patterns our staffing work follows &mdash;
-          across dedicated teams, QA, recruitment, operations and automation.
-        </p>
-        <a class="btn btn-ghost" href="case-studies.html" style="margin-top:var(--s6)">
-          Case studies
-          <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg>
-        </a>
-      </div>
-    </div>
+      <span class="btn btn-ghost">Case studies <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true"><path d="M9 1l4 4-4 4M13 5H0" stroke="currentColor" stroke-width="1.6"/></svg></span>
+    </a>
   </section>
 
   <!-- ================= CTA ================= -->
   <section class="section navy-band cta-band">
+    <svg class="band-trace" viewBox="0 0 400 400" aria-hidden="true"><polygon points="200,30 347,115 347,285 200,370 53,285 53,115"/><polygon points="200,90 295,145 295,255 200,310 105,255 105,145"/><path d="M53,200 H140 M260,200 H347"/></svg>
     <div class="wrap">
       <h2 data-reveal>Tell us the role. We will show you the people.</h2>
       <p class="lead" data-reveal style="--d:60ms">
@@ -495,6 +502,7 @@
   </section>
 
 </main>
+
 <footer class="ftr">
   <div class="wrap">
     <div class="ftr-top">

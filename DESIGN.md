@@ -1,7 +1,37 @@
-# DESIGN.md — Optiserv Consulting, "Signal"
+# DESIGN.md — Optiserv Consulting, "Console"
 
-Recorded from the built site, not from intention. If the code and this file disagree, the code
-is right and this file is stale.
+Recorded from the built site. If the code and this file disagree, the code is right.
+
+## 2026-10-16 redesign: "Console"
+
+Rebuilt in the register of a global people platform (Deel was the reference for *intent*, not
+layout). It is confident, product-led and calm. The changes:
+
+- **Type does the selling.** Archivo at 720–760 weight, 106% width, set very large. The hero is
+  centred and close to 6rem.
+- **The product is shown as product.** The hero "stage" is a navy panel of illustrated UI cards:
+  the team roster, one invoice, overlap hours and a trial ring. They show how an engagement looks.
+  They are not screenshots, and they name roles, never people.
+- **A self-select question** ("What do you need help with?") with five chips that route to the
+  service pages.
+- **A ticker of stacks we staff** in place of a logo wall. There are no client logos to show
+  honestly, so the ticker shows the skills instead.
+- **A bento product grid** of uneven tinted tiles, each with its own mini UI.
+- **Soft geometry.** Pill buttons and chips, 14/22/36px radii. Dark and tinted bands sit *inset*
+  from the viewport as rounded panels, and so does the footer.
+- **The logo hexagon survives** as a faint routed watermark on dark bands and interior heroes.
+- **The founder spotlight** uses the real photograph (`assets/img/founder.jpg`) with name and
+  location chips.
+- The palette is unchanged and comes from the logo. It adds two panel tints, `--mist` `#E6F5FB`
+  and `--sky` `#CFEFF8`. Headings are `--ink` `#0A2433`.
+
+Truth constraints are unchanged: no invented stats, logos or testimonials. Every figure on the
+page is one the offer already states.
+
+---
+
+## Previous system ("Signal"), kept for reference
+
 
 ---
 

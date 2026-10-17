@@ -6,7 +6,7 @@ from build import ARROW, ARROW_SM, cta, hero, SERVICES
 def photo(src, alt, ratio="4 / 5", cls=""):
     """A real photograph in the branded frame."""
     return f"""<div class="portrait photo {cls}" style="aspect-ratio:{ratio}">
-          <img src="{src}" alt="{alt}" width="500" height="500" loading="lazy">
+          <img src="{src}" alt="{alt}" width="520" height="671" loading="lazy">
         </div>"""
 
 
@@ -144,25 +144,25 @@ TEAM = hero(
     "find your people and the operations team who keep them working.",
 ) + f"""
   <section class="section wrap">
-    <div class="founder">
-      {photo("assets/img/founder.webp", "Founder of Optiserv Consulting", "4 / 5")}
-      <div data-reveal style="--d:80ms">
-        <h2 style="font-size:var(--t-d2)">From the founder</h2>
-        <p class="quote" style="margin-top:var(--s5)" data-verify="founder-note">
+    <div class="spotlight">
+      <div class="spot-photo" data-reveal>
+        <img src="assets/img/founder.jpg" alt="Sunil Chandra Goud, founder of Optiserv Consulting" width="520" height="671" loading="lazy">
+        <div class="spot-chip spot-chip-name">
+          <b data-verify="founder-name">Sunil Chandra Goud</b>
+          <span data-verify="founder-title">Founder, Optiserv Consulting</span>
+        </div>
+        <div class="spot-chip spot-chip-loc"><i aria-hidden="true"></i>Hyderabad, India</div>
+      </div>
+      <div class="spot-copy" data-reveal style="--d:80ms">
+        <h2>From the founder</h2>
+        <p class="quote" data-verify="founder-note">
           &ldquo;Most of the companies we talk to do not have a talent problem. They have an
           overhead problem wearing a talent problem&rsquo;s clothes. Our job is to take the
           hiring, the payroll, the desks and the management off your plate, and leave you with
           the one thing you actually wanted: good people, working on your product, at hours
           that match yours.&rdquo;
         </p>
-        <div class="byline">
-          <span class="node" aria-hidden="true"></span>
-          <div>
-            <b data-verify="founder-name">Sunil Chandra Goud</b>
-            <span data-verify="founder-title">Founder, Optiserv Consulting</span>
-          </div>
-        </div>
-        <div class="hero-actions" style="margin-top:var(--s6)">
+        <div class="hero-actions">
           <a class="btn btn-primary" href="contact.html">Book time with the founder</a>
         </div>
       </div>
@@ -176,7 +176,7 @@ TEAM = hero(
         <p class="lead">The people who run engagements, source your shortlists and keep the operation moving.</p>
       </div>
       <div class="people">
-        <div class="person" data-reveal>{photo("assets/img/founder.webp", "Founder of Optiserv Consulting", "1 / 1")}<b data-verify="founder-name">Sunil Chandra Goud</b><span>Founder</span></div>
+        <div class="person" data-reveal>{photo("assets/img/founder.jpg", "Founder of Optiserv Consulting", "1 / 1")}<b data-verify="founder-name">Sunil Chandra Goud</b><span>Founder</span></div>
         <div class="person" data-reveal style="--d:70ms">{portrait("PS", "1 / 1")}<b data-verify="team-2">Priti Singh</b><span data-verify="team-2-role">CMS Site Manager, India</span></div>
         <div class="person" data-reveal style="--d:140ms">{portrait("SR", "1 / 1")}<b data-verify="team-3">Satyapraveen Reddy</b></div>
         <div class="person" data-reveal style="--d:210ms">{portrait("PR", "1 / 1")}<b data-verify="team-4">Praveen Reddy</b></div>
