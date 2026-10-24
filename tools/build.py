@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 SITE = "https://optiservconsulting.com/"
-EMAIL = "sunil.s@optiservconsulting.com"
+EMAIL = "sunil@optiservsolutions.com"
 
 SERVICES = [
     ("staff-augmentation.html",  "Dedicated staffing",     "Engineers, QA, design — working only on your product"),
@@ -90,7 +90,7 @@ def header():
       </ul>
     </nav>
 
-    <div class="hdr-cta"><a class="btn btn-primary" href="contact.html">Book a call</a></div>
+    <div class="hdr-cta"><a class="btn btn-primary" href="https://calendly.com/consultingoptiserv/30min">Book a call</a></div>
 
     <button class="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open menu"><span></span></button>
   </div>
@@ -111,7 +111,7 @@ def header():
     <a href="careers.html">Careers</a>
     <a href="insights.html">Insights</a>
     <a href="contact.html">Contact</a>
-    <a class="btn btn-primary" href="contact.html">Book a call</a>
+    <a class="btn btn-primary" href="https://calendly.com/consultingoptiserv/30min">Book a call</a>
   </nav>
 </div>
 """
@@ -222,7 +222,7 @@ def cta(h2="Tell us the role. We will show you the people.",
       <h2 data-reveal>{h2}</h2>
       <p class="lead" data-reveal style="--d:60ms">{p}</p>
       <div class="cta-actions" data-reveal style="--d:120ms">
-        <a class="btn btn-primary" href="contact.html">Book a call {ARROW}</a>
+        <a class="btn btn-primary" href="https://calendly.com/consultingoptiserv/30min">Book a call {ARROW}</a>
         <a class="btn btn-ghost" href="mailto:{EMAIL}">{EMAIL}</a>
       </div>
       <p class="cta-meta" data-reveal style="--d:180ms">Hyderabad, India &middot; Cebu, Philippines</p>

@@ -19,7 +19,7 @@ ORG_LD = """<script type="application/ld+json">
   "url": "https://optiservconsulting.com/",
   "logo": "https://optiservconsulting.com/assets/img/logo.webp",
   "description": "Dedicated offshore teams, recruitment and automation services, delivered from Hyderabad, India and Cebu, Philippines.",
-  "email": "sunil.s@optiservconsulting.com",
+  "email": "sunil@optiservsolutions.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Aditya Trade Centre, #303, 3rd Floor, Ameerpet",

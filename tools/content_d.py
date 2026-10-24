@@ -115,7 +115,7 @@ CONTACT_HEAD = """<script type="application/ld+json">
   "@type": "LocalBusiness",
   "name": "Optiserv Consulting",
   "url": "https://optiservconsulting.com/",
-  "email": "sunil.s@optiservconsulting.com",
+  "email": "sunil@optiservsolutions.com",
   "telephone": "+91-808-823-8040",
   "address": {
     "@type": "PostalAddress",
@@ -248,7 +248,7 @@ PRIVACY = _legal(
     "Privacy Policy", "Legal",
     "How Optiserv Consulting collects, uses and protects personal information.",
     [
-      ("Who we are", '<p>Optiserv Consulting, with its registered office at Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India, and a delivery centre in Cebu, Philippines.</p><p>For any question about this policy, contact <a class="link" href="mailto:sunil.s@optiservconsulting.com" style="font-size:inherit">sunil.s@optiservconsulting.com</a>.</p>'),
+      ("Who we are", '<p>Optiserv Consulting, with its registered office at Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India, and a delivery centre in Cebu, Philippines.</p><p>For any question about this policy, contact <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
       ("What we collect", '<p>When you submit the enquiry form we collect your name, work email address, company, country, the roles you describe and your message.</p><p>When you visit the site we may collect standard technical information such as IP address, browser type, pages viewed and referring page, subject to your cookie choice.</p><p>When you apply for a role we collect the information contained in your application and CV.</p>'),
       ("Why we use it", '<ul><li>To respond to your enquiry and provide the services you ask about.</li><li>To administer a recruitment application.</li><li>To understand which pages are read, where you have consented to analytics.</li><li>To meet legal and regulatory obligations.</li></ul>'),
       ("Legal basis", '<p>We rely on <b>legitimate interests</b> to respond to a business enquiry you send us and to keep this site secure; on <b>consent</b> for analytics cookies, which load only if you accept them; on <b>contract</b> where we are providing services to you; and on <b>legal obligation</b> where a law requires us to keep or disclose information.</p>'),
@@ -264,14 +264,14 @@ TERMS = _legal(
     "The terms on which this website is made available.",
     [
       ("These terms", '<p>By using this website you accept these terms. If you do not accept them, please do not use the site.</p>'),
-      ("Who we are", '<p>Optiserv Consulting, registered office Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India. Contact us at <a class="link" href="mailto:sunil.s@optiservconsulting.com" style="font-size:inherit">sunil.s@optiservconsulting.com</a>.</p>'),
+      ("Who we are", '<p>Optiserv Consulting, registered office Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India. Contact us at <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
       ("Use of the site", '<p>You may view and print pages for your own use. You may not use the site in any way that is unlawful, that interferes with its operation, or that attempts to gain unauthorised access to it.</p>'),
       ("Accuracy", '<p>We take care that information on this site is correct and keep it up to date. Pricing, availability and service descriptions are indicative and do not constitute a binding offer &mdash; the terms that apply to any engagement are the ones set out in your contract with us.</p>'),
       ("Intellectual property", '<p>All content on this site, including text, design, graphics and the Optiserv name and logo, belongs to Optiserv Consulting or its licensors and may not be reproduced without permission.</p>'),
       ("Third-party links", '<p>Where we link to a third-party site we do not control it and are not responsible for its content.</p>'),
       ("Liability", '<p>This website is provided as it is. We do not accept liability for loss arising from reliance on information published here, from any interruption to the site, or from any third-party site we link to. Nothing in these terms limits liability that cannot be limited by law. Liability in respect of services we provide is governed by your contract with us, not by this page.</p>'),
       ("Governing law", '<p>These terms are governed by the laws of India, and the courts of Hyderabad, Telangana have jurisdiction over any dispute arising from use of this website. Services we provide are governed by the law stated in the relevant contract.</p>'),
-      ("Contact", '<p>Questions about these terms: <a class="link" href="mailto:sunil.s@optiservconsulting.com" style="font-size:inherit">sunil.s@optiservconsulting.com</a>.</p>'),
+      ("Contact", '<p>Questions about these terms: <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
     ])
 
 COOKIES = _legal(
@@ -282,7 +282,7 @@ COOKIES = _legal(
       ("What we use", '<p><b>Essential.</b> We store your cookie choice locally so that we do not ask again on every page. This is set only once you choose, and it carries no identifier.</p><p data-verify="analytics-provider"><b>Analytics.</b> If you accept analytics, we load an analytics provider so we can see which pages people read and where they arrive from. It is never loaded unless you accept it, and nothing is used to identify you personally or to target advertising.</p>'),
       ("Your choice", '<p>You are asked once, on your first visit, and your choice is remembered. You can change it at any time by clearing this site&rsquo;s data in your browser, which will cause the notice to appear again.</p><p>No analytics is loaded unless you accept it.</p>'),
       ("Browser controls", '<p>Every major browser lets you block or delete cookies in its settings. Blocking essential storage may mean the cookie notice reappears on each visit.</p>'),
-      ("Contact", '<p>Questions: <a class="link" href="mailto:sunil.s@optiservconsulting.com" style="font-size:inherit">sunil.s@optiservconsulting.com</a>.</p>'),
+      ("Contact", '<p>Questions: <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
     ])
 
 

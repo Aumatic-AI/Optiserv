@@ -261,7 +261,7 @@
           if (status) {
             status.hidden = false;
             status.className = 'form-status is-warn';
-            status.textContent = 'This form has no endpoint connected yet. Email sunil.s@optiservconsulting.com and we will pick it up there.';
+            status.textContent = 'This form has no endpoint connected yet. Email sunil@optiservsolutions.com and we will pick it up there.';
           }
           return;
         }
