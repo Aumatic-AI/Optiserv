@@ -18,6 +18,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 SITE = "https://optiservconsulting.com/"
 EMAIL = "sunil@optiservsolutions.com"
+CONNECT_EMAIL = "connect@optiservconsulting.com"
 
 SERVICES = [
     ("staff-augmentation.html",  "Dedicated staffing",     "Engineers, QA, design — working only on your product"),
@@ -158,7 +159,7 @@ def footer():
           Delivery centre
         </address>
         <ul style="margin-top:var(--s4)">
-          <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
+          <li><a href="mailto:{CONNECT_EMAIL}">{CONNECT_EMAIL}</a></li>
           <li><a href="tel:+918088238040">+91 808-823-8040</a></li>
           <li><a href="tel:+919902612737">+91 990-261-2737</a></li>
         </ul>
