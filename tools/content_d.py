@@ -138,10 +138,9 @@ CONTACT = hero(
   <section class="section wrap">
     <div class="split">
       <div data-reveal>
-        <h2 style="font-size:var(--t-d2)">Send us the brief</h2>
+        <h2 style="font-size:var(--t-d2)">Get in touch</h2>
         <p class="lead" style="margin-top:var(--s5)">
-          The more specific you are about the role and the hours, the more useful our first
-          reply will be.
+          Prefer to reach us directly? Our offices, numbers and email are below.
         </p>
 
         <div style="margin-top:var(--s8)">
@@ -171,62 +170,11 @@ CONTACT = hero(
       </div>
 
       <div data-reveal style="--d:80ms">
-        <form id="enquiry" novalidate>
-          <div class="form-errors" id="formErrors" hidden role="alert"></div>
-          <div class="form-status" id="formStatus" hidden role="status"></div>
-
-          <div class="field">
-            <label for="f-name">Your name</label>
-            <input id="f-name" name="name" type="text" required data-label="Your name" autocomplete="name">
-            <span class="err" id="f-name-err"></span>
-          </div>
-
-          <div class="field">
-            <label for="f-email">Work email</label>
-            <input id="f-email" name="email" type="email" required data-label="Work email" autocomplete="email" placeholder="you@company.com">
-            <span class="err" id="f-email-err"></span>
-          </div>
-
-          <div class="field">
-            <label for="f-company">Company</label>
-            <input id="f-company" name="company" type="text" required data-label="Company" autocomplete="organization">
-            <span class="err" id="f-company-err"></span>
-          </div>
-
-          <div class="field">
-            <label for="f-country">Where are you based?</label>
-            <select id="f-country" name="country" required data-label="Country">
-              <option value="">Select a country</option>
-              <option>United Kingdom</option>
-              <option>United States</option>
-              <option>Australia</option>
-              <option>Canada</option>
-              <option>Other</option>
-            </select>
-            <span class="err" id="f-country-err"></span>
-          </div>
-
-          <div class="field">
-            <label for="f-roles">What roles do you need? <span class="opt">optional</span></label>
-            <input id="f-roles" name="roles" type="text" placeholder="e.g. two React engineers and a QA automation engineer">
-            <span class="err" id="f-roles-err"></span>
-          </div>
-
-          <div class="field">
-            <label for="f-msg">Anything else we should know?</label>
-            <textarea id="f-msg" name="message" required minlength="20" data-label="Your message"
-              placeholder="Timezone you need covered, stack, start date, anything that would change our answer."></textarea>
-            <span class="err" id="f-msg-err"></span>
-          </div>
-
-          <button class="btn btn-primary" type="submit" style="width:100%;justify-content:center">
-            Send the brief {ARROW}
-          </button>
-          <p style="margin-top:var(--s4);font-size:var(--t-xs);color:var(--grey);text-align:center">
-            We reply from a person, not an autoresponder. See our
-            <a class="link" href="privacy.html" style="font-size:inherit">privacy policy</a>.
-          </p>
-        </form>
+        <div style="background:var(--mist);border-radius:var(--r-xl);padding:clamp(1.5rem,4vw,3rem)">
+          <h2 style="font-size:var(--t-d2)">Book a 30-minute call</h2>
+          <p class="lead" style="margin-top:var(--s4)">Pick a time that suits you. Bring the role, the hours you need covered and your stack, and we will take it from there.</p>
+          <a class="btn btn-primary" href="https://calendly.com/consultingoptiserv/30min" style="margin-top:var(--s6)">Book a call {ARROW}</a>
+        </div>
       </div>
     </div>
   </section>
@@ -248,7 +196,7 @@ PRIVACY = _legal(
     "Privacy Policy", "Legal",
     "How Optiserv Consulting collects, uses and protects personal information.",
     [
-      ("Who we are", '<p>Optiserv Consulting, with its registered office at Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India, and a delivery centre in Cebu, Philippines.</p><p>For any question about this policy, contact <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
+      ("Who we are", '<p>Optiserv Consulting, with its registered office at Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India, and a delivery centre in Cebu, Philippines.</p><p>For any question about this policy, contact <a class="link" href="mailto:connect@optiservconsulting.com" style="font-size:inherit">connect@optiservconsulting.com</a>.</p>'),
       ("What we collect", '<p>When you submit the enquiry form we collect your name, work email address, company, country, the roles you describe and your message.</p><p>When you visit the site we may collect standard technical information such as IP address, browser type, pages viewed and referring page, subject to your cookie choice.</p><p>When you apply for a role we collect the information contained in your application and CV.</p>'),
       ("Why we use it", '<ul><li>To respond to your enquiry and provide the services you ask about.</li><li>To administer a recruitment application.</li><li>To understand which pages are read, where you have consented to analytics.</li><li>To meet legal and regulatory obligations.</li></ul>'),
       ("Legal basis", '<p>We rely on <b>legitimate interests</b> to respond to a business enquiry you send us and to keep this site secure; on <b>consent</b> for analytics cookies, which load only if you accept them; on <b>contract</b> where we are providing services to you; and on <b>legal obligation</b> where a law requires us to keep or disclose information.</p>'),
@@ -264,14 +212,14 @@ TERMS = _legal(
     "The terms on which this website is made available.",
     [
       ("These terms", '<p>By using this website you accept these terms. If you do not accept them, please do not use the site.</p>'),
-      ("Who we are", '<p>Optiserv Consulting, registered office Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India. Contact us at <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
+      ("Who we are", '<p>Optiserv Consulting, registered office Aditya Trade Centre, #303, 3rd Floor, Ameerpet, Hyderabad 500038, Telangana, India. Contact us at <a class="link" href="mailto:connect@optiservconsulting.com" style="font-size:inherit">connect@optiservconsulting.com</a>.</p>'),
       ("Use of the site", '<p>You may view and print pages for your own use. You may not use the site in any way that is unlawful, that interferes with its operation, or that attempts to gain unauthorised access to it.</p>'),
       ("Accuracy", '<p>We take care that information on this site is correct and keep it up to date. Pricing, availability and service descriptions are indicative and do not constitute a binding offer &mdash; the terms that apply to any engagement are the ones set out in your contract with us.</p>'),
       ("Intellectual property", '<p>All content on this site, including text, design, graphics and the Optiserv name and logo, belongs to Optiserv Consulting or its licensors and may not be reproduced without permission.</p>'),
       ("Third-party links", '<p>Where we link to a third-party site we do not control it and are not responsible for its content.</p>'),
       ("Liability", '<p>This website is provided as it is. We do not accept liability for loss arising from reliance on information published here, from any interruption to the site, or from any third-party site we link to. Nothing in these terms limits liability that cannot be limited by law. Liability in respect of services we provide is governed by your contract with us, not by this page.</p>'),
       ("Governing law", '<p>These terms are governed by the laws of India, and the courts of Hyderabad, Telangana have jurisdiction over any dispute arising from use of this website. Services we provide are governed by the law stated in the relevant contract.</p>'),
-      ("Contact", '<p>Questions about these terms: <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
+      ("Contact", '<p>Questions about these terms: <a class="link" href="mailto:connect@optiservconsulting.com" style="font-size:inherit">connect@optiservconsulting.com</a>.</p>'),
     ])
 
 COOKIES = _legal(
@@ -282,7 +230,7 @@ COOKIES = _legal(
       ("What we use", '<p><b>Essential.</b> We store your cookie choice locally so that we do not ask again on every page. This is set only once you choose, and it carries no identifier.</p><p data-verify="analytics-provider"><b>Analytics.</b> If you accept analytics, we load an analytics provider so we can see which pages people read and where they arrive from. It is never loaded unless you accept it, and nothing is used to identify you personally or to target advertising.</p>'),
       ("Your choice", '<p>You are asked once, on your first visit, and your choice is remembered. You can change it at any time by clearing this site&rsquo;s data in your browser, which will cause the notice to appear again.</p><p>No analytics is loaded unless you accept it.</p>'),
       ("Browser controls", '<p>Every major browser lets you block or delete cookies in its settings. Blocking essential storage may mean the cookie notice reappears on each visit.</p>'),
-      ("Contact", '<p>Questions: <a class="link" href="mailto:sunil@optiservsolutions.com" style="font-size:inherit">sunil@optiservsolutions.com</a>.</p>'),
+      ("Contact", '<p>Questions: <a class="link" href="mailto:connect@optiservconsulting.com" style="font-size:inherit">connect@optiservconsulting.com</a>.</p>'),
     ])
 
 
